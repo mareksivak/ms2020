@@ -1,0 +1,83 @@
+.row {
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 48rem)
+{
+    .no-xs {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 48rem)
+{
+    .no-sm {
+        display: none;
+    }
+    
+    .nav {
+        padding: 2rem 1rem;
+    }
+    
+    .section {
+        padding: 4rem 0rem;     
+    }
+    
+    .text-first {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+    .text-second {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .text-third {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .hero {
+        padding-top: 1rem;
+    }
+    .hero h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .services-block {
+        margin-bottom: 4rem;
+    }
+    .services-block .text-third {
+        margin-top: 2rem;
+    }
+    
+    .client-logo-wrapper img {
+        padding: 0.5rem;
+    }
+    .client-logo-wrapper:nth-child(odd) img {
+    padding-right: 0.5rem;
+}
+    .client-logo-wrapper:nth-child(even) img {
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 62rem)
+{
+}
+
+@media only screen and (min-width: 75rem)
+{
+}
+
+@media only screen and (min-width: 93rem)
+{
+   /* .container {
+        width: 93rem;
+    }*/
+}
+
+
+

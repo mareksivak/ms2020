@@ -1,0 +1,33 @@
+@media only screen and (max-width: 48rem)
+{
+}
+
+@media only screen and (min-width: 48rem)
+{
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h3 {
+        max-width: 30rem;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 62rem)
+{
+    
+    h1 {
+        font-size: 140px
+    }
+    h3 {
+        max-width: 50rem;
+        font-size:40px
+    }
+}
+
+@media only screen and (min-width: 75rem)
+{
+}
