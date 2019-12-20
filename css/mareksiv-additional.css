@@ -21,6 +21,10 @@ p {
     color: #000;
     background: #eee;
 }
+.button-primary:hover {
+    color: #000;
+    background: #DDD;
+}
 
 .button-ghost {
     font-weight: 300;
